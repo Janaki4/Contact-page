@@ -1,0 +1,46 @@
+.bar1 , .bar2 , .bar3{
+    width: 35px;
+    height: 4px;
+    background-color: black;
+    margin: 5px ;
+    border-radius: 30%;
+  }
+
+.ham{
+    width: 100%;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1);
+}
+
+.space{
+  width: 10rem;
+  height: 100vh;
+  z-index: 100;
+  top:-1rem;
+  left: -12rem;
+  position: absolute;
+  background-color: rgb(92, 95, 95);
+  transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1);
+}
+.lists{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.list{
+  margin: inherit;
+}
+.list > a{
+  color: aliceblue;
+  text-decoration: none;
+
+}
+.reveal{
+  left: 0;
+}
+.hReveal{
+  position: absolute;
+  left: 10rem;
+}

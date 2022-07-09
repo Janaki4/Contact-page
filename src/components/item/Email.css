@@ -1,0 +1,16 @@
+.btn{
+    background-color: rebeccapurple;
+    width: fit-content;
+    padding: 10px;
+    color: aliceblue;
+    object-fit: contain;
+    border: 1px solid black;
+    border-radius: 5px  ;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 0.3s;
+    /* letter-spacing: 1px; */
+}
+
+.btn:hover{
+    background-color: blueviolet;
+    transform: translateY(-7px);
+}
