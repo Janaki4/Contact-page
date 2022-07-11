@@ -1,7 +1,8 @@
 .header{
-    margin: 0;
+    margin:  auto;
     font-size:xx-large;
     color: black;
     font-weight: 500;
     font-style: italic;
+ padding: 1rem;
 }

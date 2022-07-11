@@ -11,8 +11,6 @@ function Parent() {
   const [datas, setDatas] = useState([]);
   const prms = async () => {
     const result = await axios.get("https://randomuser.me/api/?results=3");
-    // https://www.fruityvice.com/api/fruit/all
-    // console.log(result.data.results);
     setDatas(result.data.results);
   };
   return (
